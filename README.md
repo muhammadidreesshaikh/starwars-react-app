@@ -14,3 +14,20 @@ https://www.youtube.com/watch?v=PvCQfdVEBfA&list=PLpdiIovPfYaS4iUQOtm-sBoNz0TEe6
 
 # start the app
 > npm start
+
+# app structure
+src
+    assets
+        css
+        img
+   components
+        Planets
+        Spaceships
+        Vehicles
+        People
+        Films 
+        Species
+   layouts
+        header
+        footer
+        sidebar
