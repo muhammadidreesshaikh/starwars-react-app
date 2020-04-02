@@ -15,6 +15,12 @@ https://www.youtube.com/watch?v=PvCQfdVEBfA&list=PLpdiIovPfYaS4iUQOtm-sBoNz0TEe6
 # start the app
 > npm start
 
+# bootstrap link
+> npm install --save bootstrap@latest
+
+<!-- index.js -->
+  import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
 # app structure
 src
     /assets

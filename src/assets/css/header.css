@@ -1,6 +1,7 @@
 .header {
     background: #000000;
     color: #ffffff;
+    padding: 2% 0;
 }
 
 .header .logo{
@@ -8,11 +9,13 @@
 }
 
 .header .logo img{
-    
+    width: 35%;
+    height: auto;
 } 
 
 .header .nav{
-
+    float: right;
+    padding-top: 2%;
 }
 
 .header .nav ul {
@@ -20,9 +23,25 @@
     list-style: none;
 }
 
-.header .nav li a {
-    color: white;
+.header .nav li{
+    display: table-cell;
+    width: auto;
+    margin: 0;
+    vertical-align: top;
+    border-left: 2px solid #494949;
+    box-sizing: border-box;
+}
+
+.header .nav a {
+    color: #999;
     text-decoration: none;
     font-size: 16px;
     padding: 0 10px 0 10px;
+    font-weight: bold;
+}
+
+.header .nav a:hover {
+    color: #ffffff;
+    opacity: 0.5s;
+    transition: 0.5s;
 }
