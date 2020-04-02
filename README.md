@@ -17,17 +17,17 @@ https://www.youtube.com/watch?v=PvCQfdVEBfA&list=PLpdiIovPfYaS4iUQOtm-sBoNz0TEe6
 
 # app structure
 src
-    assets
-        css
-        img
-   components
+    /assets
+        /css
+        /img
+   /components
         Planets
-        Spaceships
+        Spaceships 
         Vehicles
         People
         Films 
         Species
-   layouts
-        header
-        footer
-        sidebar
+   /layouts
+        Header
+        Footer
+        Sidebar
