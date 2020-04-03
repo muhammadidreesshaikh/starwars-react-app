@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../assets/css/header.css';
 import logo from '../assets/img/logo.png';
 
@@ -18,12 +19,24 @@ function Header() {
                         <div className="col-sm-8 col-md-8 col-lg-8">
                             <div className="nav">
                                  <ul>
-                                    <li><a href="#">Planets</a></li>
-                                    <li><a href="#">Spaceships</a></li>
-                                    <li><a href="#">Vehicles</a></li>
-                                    <li><a href="#">People</a></li>
-                                    <li><a href="#">Films</a></li>
-                                    <li><a href="#">Species</a></li>
+                                    <li>
+                                        <Link to="/planets">Planets</Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/spaceships">Spaceships</Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/vehicles">Vehicles</Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/people">People</Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/films">Films</Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/species">Species</Link>
+                                    </li>
                                  </ul>
                             </div>
                         </div>
