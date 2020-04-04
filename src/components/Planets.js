@@ -5,7 +5,18 @@ function Planets() {
     return(
         <div>
             <div className="planets">
-                planets planets planets
+                <div className="container">
+                    <div className="row">
+
+                        <div className="col-sm-4 col-md-4 col-lg-4">
+                            <div className="img2">
+                                                                    
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
             </div>
         </div>
     );

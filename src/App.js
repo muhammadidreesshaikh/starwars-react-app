@@ -23,9 +23,10 @@ function App() {
       <div className="App">
 
         <Header />
+        <Slider />
 
           {/* all components */}
-          <div className="container">
+          <div>
             <Switch>
               <Route exact path='/' component={Planets}></Route>
               <Route exact path='/films' component={Films}></Route>
