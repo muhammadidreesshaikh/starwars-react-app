@@ -1,0 +1,56 @@
+.planets{
+    background-image: url(/static/media/q2.c80ada99.jpg);
+    width: 100%;
+    height: auto;
+    padding: 6% 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: soft-light;
+    background-color: #070707;
+}
+
+.planets h3{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.planets  .seprator {
+    width: 5%;
+    height: 2px;
+    border-radius: 5px;
+    background-color: orange;
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.planets .wrapper1{
+    background: #759005bf;
+    border-radius: 9px;
+    height: 400px;
+    margin-top: 30%;
+}
+
+.planets .wrapper1 .img2 img{
+    width: 100%;
+    height: 260px;
+    border-radius: 10px 10px 0 0;
+}
+
+.planets .wrapper1 .head {
+    padding: 5% 5%;
+}
+
+.planets .wrapper1 .head h6 {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.planets .wrapper1 .head p {
+    color: #d0d0d0;
+    font-size: 13px;
+    padding-top: 3%;
+}
