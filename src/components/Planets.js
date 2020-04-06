@@ -10,7 +10,7 @@ import image5 from '../assets/img/p6.webp';
 import image6 from '../assets/img/p7.jpeg';
 import image7 from '../assets/img/p8.webp';
 
-// array 
+// array
 let planetsData = [
     {
         image: 'https://images.wallpapersden.com/image/wxl-black-widow-in-avengers-endgame_64416.jpg',
