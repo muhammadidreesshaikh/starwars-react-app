@@ -24,11 +24,12 @@ function App() {
 
         <Header />
         <Slider />
+        <Footer />
 
           {/* all components */}
           <div>
             <Switch>
-              <Route exact path='/' component={Planets}></Route>
+              {/* <Route exact path='/' component={Planets}></Route> */}
               <Route exact path='/films' component={Films}></Route>
               <Route exact path='/people' component={People}></Route>
               <Route exact path='/planets' component={Planets}></Route>

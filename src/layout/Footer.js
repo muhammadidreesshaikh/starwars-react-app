@@ -9,28 +9,33 @@ function Footer(){
                 <div className="row">
                     
                     <div className="col-sm-12 col-md-12 col-lg-12">
+                        <div className="bttom">
+                            <h6>FOLLOW STAR WARS:</h6>
 
-                        <h6>FOLLOW STAR WARS:</h6>
+                            {/* <div className="icon">
+                                <i class="fab fa-facebook-f"></i> 
+                                <i class="fab fa-instagram"></i>
+                                <i class="fab fa-twitter"></i>
+                                <i class="fab fa-youtube"></i>   
+                            </div> */}
 
-                        <div className="icon">
-                            <i class="fab fa-facebook-f"></i> 
-                            <i class="fab fa-instagram"></i>
-                            <i class="fab fa-twitter"></i>
-                            <i class="fab fa-youtube"></i>   
+                            <p>TM & © Lucasfilm Ltd. All Rights Reserved</p>
                         </div>
+                    </div>    
 
-                        <p>TM & © Lucasfilm Ltd. All Rights Reserved</p>
-
+                    <div className="col-sm-12 col-md-12 col-lg-12">
                         <div className="btn2">
-                            <a href="#">Terms of Use</a>
-                            <a href="#"> Additional Content Information</a>
-                            <a href="#">Privacy Policy</a>
-                            <a href="#">Terms of Use</a>
-                            <a href="#">Terms of Use</a>
-                            <a href="#">Terms of Use</a>
-
+                           <ul>
+                                <li><a href="#">Terms of Use</a></li>
+                                <li><a href="#"> Additional Content Information</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Children’s Online Privacy Policy</a></li>
+                                <li><a href="#">Your California Privacy Rights</a></li>
+                                <li><a href="#">Star Wars at shopDisney</a></li>
+                                <li><a href="#">Star Wars Helpdesk</a></li>
+                                <li><a href="#">Interest-Based Ads Do Not Sell My Info</a></li>
+                           </ul>
                         </div>
-
                     </div>
 
                 </div>
