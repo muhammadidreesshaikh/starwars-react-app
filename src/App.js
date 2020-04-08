@@ -24,7 +24,6 @@ function App() {
 
         <Header />
         <Slider />
-        <Footer />
 
           {/* all components */}
           <div>
@@ -38,6 +37,8 @@ function App() {
               <Route exact path='/vehicles' component={Vehicles}></Route>
             </Switch>
           </div>
+
+          <Footer />
 
       </div>        
     </Router>

@@ -1,5 +1,5 @@
 .planets{
-    background-image: url(/static/media/q2.c80ada99.jpg);
+    background-image: url('../img/q2.jpg');
     width: 100%;
     height: auto;
     padding: 6% 0;
