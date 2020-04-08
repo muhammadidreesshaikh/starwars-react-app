@@ -40,3 +40,6 @@ src
 
 # react router
 https://www.geeksforgeeks.org/reactjs-router/
+
+# npm axios
+https://alligator.io/react/axios-react/
