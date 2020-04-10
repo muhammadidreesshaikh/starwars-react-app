@@ -16,13 +16,13 @@ class Planets extends React.Component {
     }
 
     componentDidMount() {
-        const url = "https://swapi.co/api/planets/?page=1";
+        const url = "https://5e9044022810f4001648acfb.mockapi.io/api/v1/planets";
 
         axios.get(url).then(responce => {
             console.log(responce);
 
             // getting array from responce 
-            let planets = responce.data.results;
+            let planets = responce.data;
             
             // setting the planets state with api responce 
             this.setState({
@@ -50,14 +50,14 @@ class Planets extends React.Component {
                                             <div className="col-sm-3 col-md-3 col-lg-3" key={i}>
                                                 <div className="wrapper1">
                                                     <div className="img2">
-                                                        <img src={imagePlanet} />
+                                                        <img src={planet.avatar} />
                                                     </div>
     
                                                     <div className= "head">
                                                         <h6>{planet.name}</h6>
                                                         <p>{planet.terrain}</p>
                                                         <p>Rotation: {planet.rotation_period}</p>
-                                                        <p>Date: {planet.created}</p>
+                                                        <p>Date: {Date(planet.created)}</p>
                                                     </div>
                                                 </div>
                                             </div>
