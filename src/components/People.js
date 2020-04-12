@@ -16,9 +16,9 @@ class People extends React.Component {
     }
 
     componentDidMount() {
-        const url = "https://5e9044022810f4001648acfb.mockapi.io/api/v1/people";
+        const url = "https://5e9044022810f4001648acfb.mockapi.io/api/v1/people"; 
 
-        axios.get(url).then(responce => {
+        axios.get(url).then(responce => { 
             console.log(responce);
 
             // getting array from responce 
@@ -33,14 +33,14 @@ class People extends React.Component {
 
     render() {
         return( 
-            <div>
+            <div> 
                 <div className="people">
-                    <div className="container">
-                        <div className="row">
+                    <div className="container"> 
+                        <div className="row"> 
     
-                            <div className="col-sm-12 col-md-12 col-lg-12">
-                                <h3>People</h3>
-                                <div className="seprator"></div>
+                            <div className="col-sm-12 col-md-12 col-lg-12"> 
+                                <h3>People</h3> 
+                                <div className="seprator"></div> 
                             </div>
     
                             {
