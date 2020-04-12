@@ -1,5 +1,6 @@
 import React from 'react';
-import '../assets/css/species.css';
+import '../assets/css/species.css'
+
 import image from '../assets/img/f1.webp';
 import image2 from '../assets/img/f2.jpeg';
 import image3 from '../assets/img/f3.jpeg';
@@ -46,7 +47,6 @@ let SpeciesData = [
         image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/1200px-Star_Wars_Logo.svg.png'
     }
 ]
-
 
 function Species() {
     return(
