@@ -9,6 +9,7 @@ import Planets from './components/Planets';
 import Spaceships from './components/Spaceships';
 import Species from './components/Species';
 import Vehicles from './components/Vehicles';
+import Form from './components/Form';
 import Footer from './layout/Footer';
 
 import { 
@@ -35,6 +36,7 @@ function App() {
               <Route exact path='/spaceships' component={Spaceships}></Route>
               <Route exact path='/species' component={Species}></Route>
               <Route exact path='/vehicles' component={Vehicles}></Route>
+              <Route exact path='/form' component={Form}></Route>
             </Switch>
           </div>
 

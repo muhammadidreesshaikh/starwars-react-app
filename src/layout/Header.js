@@ -25,6 +25,7 @@ function Header() {
                                     <li><Link to="/people">People</Link></li>
                                     <li><Link to="/films">Films</Link></li>
                                     <li><Link to="/species">Species</Link></li>
+                                    <li><Link to="/form">Form</Link></li>
                                  </ul>
                             </div>
                         </div>
