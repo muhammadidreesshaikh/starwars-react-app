@@ -72,6 +72,6 @@ class Planets extends React.Component {
                 </div>
             </div>
         );
-    }
+    } 
 }
 export default Planets;

@@ -4,12 +4,12 @@ import './App.css';
 import Header from './layout/Header';
 import Slider from './layout/Slider';
 import Films from './components/Films';
-import People from './components/People';
 import Planets from './components/Planets';
 import Spaceships from './components/Spaceships';
 import Species from './components/Species';
 import Vehicles from './components/Vehicles';
 import Form from './components/Form';
+import FormClass from './components/FormClass';
 import Footer from './layout/Footer';
 
 import { 
@@ -31,12 +31,12 @@ function App() {
             <Switch>
               {/* <Route exact path='/' component={Planets}></Route> */}
               <Route exact path='/films' component={Films}></Route>
-              <Route exact path='/people' component={People}></Route>
               <Route exact path='/planets' component={Planets}></Route>
               <Route exact path='/spaceships' component={Spaceships}></Route>
               <Route exact path='/species' component={Species}></Route>
               <Route exact path='/vehicles' component={Vehicles}></Route>
               <Route exact path='/form' component={Form}></Route>
+              <Route exact path='/formclass' component={FormClass}></Route>
             </Switch>
           </div>
 

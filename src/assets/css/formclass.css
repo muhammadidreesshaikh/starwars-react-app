@@ -1,0 +1,42 @@
+.formclass
+{
+    padding: 7% 0;
+    text-align: center;
+}
+
+.formclass input
+{
+    color: #fff;
+}
+
+.formclass input, .form textarea 
+{
+    background-color: #303030;
+    color: #fff;
+    border-radius: 5px;
+    padding: 1% 0 1% 2%;
+    border: 1px solid #fff;
+    width: 50%;
+    height: auto;
+    margin-top: 5%;
+}
+
+.formclass input::placeholder, .form textarea::placeholder
+{
+    color: #fff;
+}
+
+.formclass .button5
+{
+    margin-top: 8%;
+}
+
+.formclass .button5 a
+{
+    background-color: #2bb673;
+    padding: 8px 30px 7px 30px;
+    border: 1px solid #2bb673;
+    border-radius: 6px;
+    color: white;
+    font-size: 17px;
+}
