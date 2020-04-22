@@ -30,7 +30,7 @@ function Form() {
                             <input type="text" name="addres" placeholder="Addres"  onChange={(event) => {getAnswer(event)}}/>
                         </div>
 
-                    </div>
+                    </div> 
                 </div>
 
                 <div class="button5">

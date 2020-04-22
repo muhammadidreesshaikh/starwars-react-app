@@ -39,6 +39,12 @@ class FormClass extends React.Component {
 
     oneClick(){
         console.log('muhammad idrees')
+        localStorage.setItem("name", "muhammad idrees");
+    }
+
+    secondClick() {
+        let name= localStorage.getItem("name");
+        console.log(name)
     }
 
 
@@ -84,7 +90,9 @@ class FormClass extends React.Component {
                         <button onClick={ () => {this.formSubmit()} } disabled={!this.state.name && !this.state.contact && !this.state.email && !this.state.addres} > Send Message </button>
                     </div>
 
-                    <button onClick={ () => {this.oneClick()}} > Done </button>
+                    <button onClick={ () => {this.oneClick()}} > setItem </button>
+
+                    <button onClick={ () => {this.secondClick()}} > getItem </button>
     
                 </div>
     
@@ -94,7 +102,5 @@ class FormClass extends React.Component {
     }
 
 }
-
-
 
 export default FormClass;

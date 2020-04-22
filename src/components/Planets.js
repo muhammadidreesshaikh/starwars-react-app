@@ -3,7 +3,7 @@ import '../assets/css/planets.css';
 
 import imagePlanet from '../assets/img/p1.webp';
 
-import axios from 'axios';
+import axios from 'axios'; 
 
 class Planets extends React.Component {
 

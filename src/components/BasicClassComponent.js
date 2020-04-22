@@ -10,7 +10,7 @@ class BasicClassComponent extends React.Component {
             data: [],
             loading: false
         };
-    }
+    } 
 
     componentDidMount() {
         console.log("BasicClassComponent");
