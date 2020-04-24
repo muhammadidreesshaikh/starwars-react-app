@@ -90,9 +90,9 @@ class FormClass extends React.Component {
                         <button onClick={ () => {this.formSubmit()} } disabled={!this.state.name && !this.state.contact && !this.state.email && !this.state.addres} > Send Message </button>
                     </div>
 
-                    <button onClick={ () => {this.oneClick()}} > setItem </button>
+                    <button onClick={ () => {this.oneClick()}} > set item </button>
 
-                    <button onClick={ () => {this.secondClick()}} > getItem </button>
+                    <button onClick={ () => {this.secondClick()}} > get item </button>
     
                 </div>
     

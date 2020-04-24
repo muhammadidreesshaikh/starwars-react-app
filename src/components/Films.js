@@ -46,7 +46,17 @@ let FilmsData = [
         text: 'From Lucasfilm comes the first of the Star Wars standalone films, “Rogue One: A Star Wars Story,” an all-new epic adventure. In a time of conflict, a group of unlikely heroes band together on a mission to steal the plans to the Death Star, the Empire’s ultimate weapon of destruction. This key event in the Star Wars timeline brings together ordinary people who choose to do extraordinary things, and in doing so, become part of something greater than themselves.',
         image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/1200px-Star_Wars_Logo.svg.png'
     }
-]
+]  
+
+    const ChangeColor= (event) => {
+        console.log(event.target.name);
+
+        let color = event.target.name;
+        document.getElementById("colorfull").style.color = color;
+        
+    }
+
+
 
 function Films() {
     return(
@@ -89,6 +99,23 @@ function Films() {
                                 }
                             )
                         }
+
+                        <div className="col-md-12">
+                            <div className="buttons">
+
+                                <a name="blue" className="btn btn-primary" onClick={(event)=>{ChangeColor(event)}} >Blue</a>
+
+                                <a name="red" className="btn btn-danger" onClick={(event)=>{ChangeColor(event)}} >Red</a>
+
+                                <a name="cyan" className="btn btn-info" onClick={(event)=>{ChangeColor(event)}} >Cyan</a>
+
+                                <a name="green" className="btn btn-success" onClick={(event)=>{ChangeColor(event)}} >Green</a>
+
+                                <a name="orange" className="btn btn-warning" onClick={(event)=>{ChangeColor(event)}} >Orange</a>
+                            </div>
+
+                            <h4 id="colorfull" >Submitted</h4>
+                        </div>
 
                     </div>
                 </div>
